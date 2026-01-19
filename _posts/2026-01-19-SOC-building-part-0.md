@@ -34,8 +34,6 @@ We deliberately worked in an imperfect environment. That meant mixed operating s
 **Why this matters:** Most SOCs don’t defend clean, modern environments. Designing controls around legacy systems forces realistic risk decisions instead of idealized ones.
 
 
----
-
 ## How this series is structured
 
 Each stage of the project builds on the last:

@@ -3,7 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "toc": "text",
-    "toc_sticky": "text"
+    "toc": "checkbox",
+    "toc_sticky": "checkbox"
   }
 }
