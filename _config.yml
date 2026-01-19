@@ -4,6 +4,17 @@ url: https://zero-for683.github.io
 
 minimal_mistakes_skin: dark
 
+author:
+  name: "Gabriel Barbir"
+  bio: "Cybersecurity Analyst | OSCP | Threat Hunting & Detection"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/gabriel-barbir/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ZeroFor-683"
+
 
 plugins:
   - jekyll-feed
@@ -23,3 +34,4 @@ navigation:
     url: /projects/
   - title: "About"
     url: /about/
+
