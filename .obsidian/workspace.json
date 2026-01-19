@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-01-19-SOC-Building-part-1.md",
+                "file": "_posts/2026-01-19-SOC-Building-part-1-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-19-SOC-Building-part-1"
+              "title": "2026-01-19-SOC-Building-part-1-2"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-01-19-SOC-Building-part-1.md",
+                "file": "_posts/2026-01-19-SOC-Building-part-1-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-19-SOC-Building-part-1"
+              "title": "2026-01-19-SOC-Building-part-1-2"
             }
           }
         ]
@@ -208,11 +208,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "df7224ea3c457e7c",
+  "active": "693d53227d932217",
   "lastOpenFiles": [
     "_posts/2026-01-19-SOC-building-part-0.md",
     "README.md",
-    "_posts/2026-01-19-SOC-Building-part-1.md",
+    "_posts/2026-01-19-SOC-Building-part-1-2.md",
     "categories.md",
     "about.md",
     "_posts/2026-01-19-post.md",

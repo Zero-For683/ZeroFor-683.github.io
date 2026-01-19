@@ -1,5 +1,5 @@
 ---
-title: Building a SOC From Scratch (Overview)
+title: Building a SOC From Scratch (Part 1) - Profile Building & Operational Due Diligence
 categories:
   - blue-teaming
 tags:
@@ -13,23 +13,12 @@ read_time: true
 
 ## Stage 1: Defining the Organization
 
-  
-
 The first step in this multi-part series is establishing the organizational foundation the SOC is designed to protect. Before selecting tools or writing detections, we focused on defining three core elements:
-
-  
-
 - The company’s name and mission
-
 - Team roles and responsibilities
-
 - The organization’s foundational purpose, including critical capabilities, requirements, and vulnerabilities
 
-  
-
 ### Company Identity
-
-  
 
 Because this is a fictional organization, our team created **Atlas Industrial** as the company name. Atlas Industrial represents a small-sized industrial business with real-world operational and security constraints.
 
