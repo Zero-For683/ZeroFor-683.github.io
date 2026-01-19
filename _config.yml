@@ -3,6 +3,8 @@ description: Cybersecurity writeups focused on detection engineering, threat hun
 url: https://zero-for683.github.io
 
 minimal_mistakes_skin: dark
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
 
 author:
   name: "Gabriel Barbir"
@@ -17,9 +19,11 @@ author:
 
 
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
 
 masthead_title: "Gabriel Barbir"
 breadcrumbs: true
@@ -34,4 +38,5 @@ navigation:
     url: /projects/
   - title: "About"
     url: /about/
+
 
