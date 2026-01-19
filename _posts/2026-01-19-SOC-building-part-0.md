@@ -8,33 +8,43 @@ toc: "true"
 toc_sticky: "true"
 ---
 
+This post introduces a multi-part series documenting the design and build-out of a Security Operations Center during my RapidAscent apprenticeship. Each entry focuses on decisions, tradeoffs, and lessons learned rather than tools or step-by-step instructions.
+
+
 ## What this project is
 
-This series documents one of the largest projects I’ve worked on during my `RapidAscent` apprenticeship: designing and building a Security Operations Center from the ground up.
-
-The premise is simple on paper—_“build a SOC”_—but the work quickly moves beyond tools and dashboards. Instead of starting with alerts, we start with the business. My team and I created a fictional organization, defined its mission, and worked through what actually needs to be protected. From there, every decision flows forward: systems selection, threat modeling, architecture, and security controls.
+The premise is simple on paper—“build a SOC”—but the work quickly moves beyond tools and dashboards. Instead of starting with alerts, we start with the business. My team and I created a fictional organization, defined its mission, and worked through what actually needs to be protected. From there, every decision flows forward: systems selection, threat modeling, architecture, and security controls.
 
 ## How we approached it
 
 Across the project, I rotated through multiple perspectives you’d see in a real SOC:
 
-- thinking like an analyst during investigations,
-- like an engineer when designing detection and architecture,
-- and like a security lead when balancing risk, documentation, and operational tradeoffs.
+- Thinking like an analyst during investigations  
+- Thinking like an engineer when designing detection and architecture  
+- Thinking like a security lead when balancing risk, documentation, and operational tradeoffs
+
+
 
 ## The environment we worked in
 
 We deliberately worked in an imperfect environment. That meant mixed operating systems, a Windows 10 endpoint, and a designated legacy system—because real SOCs rarely defend clean, modern networks. This forced us to deal with risk realistically, not theoretically.
 
-## How the project is structured
+**Why this matters:** Most SOCs don’t defend clean, modern environments. Designing controls around legacy systems forces realistic risk decisions instead of idealized ones.
+
+
+---
+
+## How this series is structured
 
 Each stage of the project builds on the last:
 
-- establishing organizational context and roles,
-- selecting and justifying core systems,
-- modeling threats and prioritizing risk,
-- designing logical and network architectures,
-- and planning security controls before anything is deployed.
+- Establishing organizational context and roles,
+- Selecting and justifying core systems,
+- Modeling threats and prioritizing risk,
+- Designing logical and network architectures,
+- And planning security controls before anything is deployed.
+
+Once planning and documentation are complete, we move into implementation. In this phase, systems are hardened and aligned with NIST and GRC requirements, then validated through testing to determine whether our detections can identify threats operating within the environment.
 
 # What this series will cover
 
