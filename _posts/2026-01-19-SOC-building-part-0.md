@@ -4,8 +4,10 @@ categories:
   - "[homelab, tooling, blue-teaming]"
 tags:
 classes: narrow
-toc: "true"
-toc_sticky: "true"
+toc: true
+toc_sticky: true
+layout: single
+read_time: true
 ---
 
 This post introduces a multi-part series documenting the design and build-out of a Security Operations Center during my RapidAscent apprenticeship. Each entry focuses on decisions, tradeoffs, and lessons learned rather than tools or step-by-step instructions.
