@@ -19,15 +19,13 @@ The focus areas for this stage include:
 - Attack modeling
 - Mitigation prioritization
 
----
-
 ## Initial Threat Modeling Overview
 
 Below is a high-level threat model diagram used to visualize early attack paths and areas of concern. This diagram is intentionally simplified and does **not** represent the final network architecture.
 
 The goal at this stage is not to enumerate every possible attack vector, but to highlight realistic and high-impact paths that warrant deeper analysis during design.
 
-![threat-model-sketch](zz-misc-image-folder/threat-model-sketch.png)
+![threat-model-sketch](/assets/images/threat-model-sketch.png)
 
 
 ---
