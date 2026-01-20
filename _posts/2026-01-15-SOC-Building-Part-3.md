@@ -28,8 +28,6 @@ The goal at this stage is not to enumerate every possible attack vector, but to 
 ![threat-model-sketch](/assets/images/threat-model-sketch.png)
 
 
----
-
 ## Risk Assessment Using Risk Registers
 
 
@@ -55,11 +53,6 @@ Risk registers allow us to document threats in a structured way by capturing lik
 | **Risk Level**    | **High**                                                                                                      |
 | **Mitigation**    | MFA, rate limiting, WAF rules, hardened Docker configuration, encrypted communication, secure coding settings |
 
-
-  
-
----
-
 ### 2. Database Service Exposure (PostgreSQL)
 
 **System:** PostgreSQL Database (Windows Server 2025) 
@@ -74,8 +67,6 @@ Risk registers allow us to document threats in a structured way by capturing lik
 | **CIA Impact** | **Confidentiality: High**, **Integrity: High**, **Availability: Medium**                                   |
 | **Risk Level**     | **High**                                                                                                       |
 | **Mitigation**     | Firewall rules, network segmentation, disable remote access, enable TLS, strong passwords, change default port |
-
----
 
 ### 3. Misconfiguration Risk (Docker, ERP, Database, SIEM)
 
@@ -92,8 +83,6 @@ Risk registers allow us to document threats in a structured way by capturing lik
 | **CIA Impact**    | **C: High**, **I: High**, **A: Medium**                                                                                                    |
 | **Risk Level**    | **High**                                                                                                                                   |
 | **Mitigation**    | Enforce .env file permissions, disable default Docker networks, validate compose files, use hardened images, perform CIS Docker benchmarks |
-
----
 
 ### 4. Certificate Misconfiguration (`Wazuh` SIEM)
 
@@ -112,13 +101,7 @@ Risk registers allow us to document threats in a structured way by capturing lik
 | **Risk Level**    | **High**                                                                                                                      |
 | **Mitigation**    | Generate correct certs, enforce HTTPS, validate pem files, restart faulty services, use automated certificate lifecycle tools |
 
----
-
-  
-
 ### 5. User Endpoint Vulnerability (Windows 10)
-
-  
 
 **System:** Windows 10 endpoint  
 **Source:** Due Diligence doc identifies user environment as “biggest weakness.”
@@ -132,11 +115,6 @@ Risk registers allow us to document threats in a structured way by capturing lik
 |**CIA Impact**|**C: High**, **I: Medium**, **A: Medium**|
 |**Risk Level**|**High**|
 |**Mitigation**|Wazuh agent monitoring, endpoint hardening, user training, email security controls, application allowlisting|
-
-
----
-
-  
 
 ## Framework Mapping: STRIDE
 
@@ -160,7 +138,5 @@ Effective threat modeling should answer four core questions:
 | **Database Service Exposure.**                           |              | ✔             |                 | ✔                          |                       | ✔                          |
 | **Certificate Misconfiguration (Wazuh)a**.               | ✔            | ✔             | ✔               |                            |                       |                            |
 | **User Endpoint Vulnerability (Windows 10 Workstation)** |              | ✔             |                 | ✔                          |                       | ✔                          |
-
----
 
 This stage establishes the risk baseline that informs architectural decisions and security controls in the next phase. Threat modeling remains iterative and will be revisited as the environment evolves.
